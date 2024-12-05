@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "title":"Biryani",
+        "src":"https://th.bing.com/th/id/OIP.FPuP3QNkURKQqGMi9VkeZQHaE8?rs=1&pid=ImgDetMain",
+        "alt":"pic",
+        "description":"tasty",
+        "subdescription":"spicy",
+        "headings":"Dum Biryani",
+        "price":250,
+        "button":"explore",
+        "rating":5
+    },
+    {
+        "id":2,
+        "title":"Biryani",
+        "src":"https://th.bing.com/th/id/OIP.FPuP3QNkURKQqGMi9VkeZQHaE8?rs=1&pid=ImgDetMain",
+        "alt":"pic",
+        "description":"tasty",
+        "subdescription":"spicy",
+        "headings":"Dum Biryani",
+        "price":250,
+        "button":"explore",
+        "rating":5
+    },
+    {
+        "id":3,
+        "title":"Thumps Up ",
+        "src":"https://th.bing.com/th/id/OIP.kM7raxU5zgcwvIK3SdOWhwHaHa?rs=1&pid=ImgDetMain",
+        "alt":"pic",
+        "description":"tasty",
+        "subdescription":"sugaric",
+        "headings":"drink",
+        "price":90,
+        "button":"explore",
+        "rating":5
+    }
+  
+]

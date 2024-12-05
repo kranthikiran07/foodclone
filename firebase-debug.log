@@ -1,0 +1,21 @@
+[debug] [2024-12-04T17:24:59.860Z] ----------------------------------------------------------------------
+[debug] [2024-12-04T17:24:59.862Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\krant\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-12-04T17:24:59.863Z] CLI Version:   13.27.0
+[debug] [2024-12-04T17:24:59.863Z] Platform:      win32
+[debug] [2024-12-04T17:24:59.863Z] Node Version:  v22.9.0
+[debug] [2024-12-04T17:24:59.863Z] Time:          Wed Dec 04 2024 22:54:59 GMT+0530 (India Standard Time)
+[debug] [2024-12-04T17:24:59.863Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-04T17:24:59.923Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-04T17:24:59.923Z] > authorizing via signed-in user (kirankranthi274@gmail.com)
+[debug] [2024-12-04T17:24:59.923Z] [iam] checking project chcgcf-5be6a for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-12-04T17:24:59.924Z] Checked if tokens are valid: true, expires at: 1733336122441
+[debug] [2024-12-04T17:24:59.924Z] Checked if tokens are valid: true, expires at: 1733336122441
+[debug] [2024-12-04T17:24:59.925Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/chcgcf-5be6a:testIamPermissions [none]
+[debug] [2024-12-04T17:24:59.925Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/chcgcf-5be6a:testIamPermissions x-goog-quota-user=projects/chcgcf-5be6a
+[debug] [2024-12-04T17:24:59.925Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chcgcf-5be6a:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-12-04T17:25:11.343Z] *** [apiv2] error from fetch(https://cloudresourcemanager.googleapis.com/v1/projects/chcgcf-5be6a:testIamPermissions, {"headers":{},"method":"POST","body":"{\"permissions\":[\"firebase.projects.get\",\"firebasehosting.sites.update\"]}"}): FetchError: request to https://cloudresourcemanager.googleapis.com/v1/projects/chcgcf-5be6a:testIamPermissions failed, reason: getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com
+[debug] [2024-12-04T17:25:11.343Z] [iam] error while checking permissions, command may fail: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/chcgcf-5be6a:testIamPermissions
+[debug] [2024-12-04T17:25:11.344Z] Checked if tokens are valid: true, expires at: 1733336122441
+[debug] [2024-12-04T17:25:11.344Z] Checked if tokens are valid: true, expires at: 1733336122441
+[debug] [2024-12-04T17:25:11.345Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chcgcf-5be6a [none]
